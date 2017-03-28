@@ -32,7 +32,8 @@ class SearchBar extends Component {
           placeholder="Get a 5 days forecast in your favorite cities"
           className="form-control"
           value={this.state.term}
-          onChange={this.handleChange} />
+          onChange={this.handleChange}
+          autoFocus="true" />
         <span className="input-group-btn">
           <button type="submit" className="btn btn-secondary">Submit</button>
         </span>
